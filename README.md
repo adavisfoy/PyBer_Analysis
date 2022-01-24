@@ -7,12 +7,15 @@ The purpose of this analysis was provide a summary of PyBer's ride-sharing data 
 Note - Add images from summary DataFrame & multiple-line chart. . . . 
 
 Highlights of the differences in ride-sharing data amongst the different city types include:   
-- Total Rides: 
-- Total Drivers: 
-- Total Fares: 
-- Average Fare per Ride: 
-- Average Fare per Driver: 
-- Total Fare by City Type: 
+- **Total Rides:**
+  - There are 13 times more rides in urban areas versus rural areas. There are 2.5 times more rides in urban areas vs. suburban areas. This makes sense from a common sense perspective given the population density in urban versus rural cities.   
+- **Total Drivers: **
+  - There is a dramatic difference in the number of drivers in urban areas versus rural areas. There are nearly 31 times more drivers in urban versus rural areas. While this is expected to a certain extent, this large disparity in the number of drivers leads to higher demand and significantly higher prices for rural customers. 
+- **Total Fares: **
+  - Despite there being 31 times more drivers in urban areas than rural areas, total fares in urban areas are only 9 times higher than rural fares. This indicates that higher costs are being passed on to rural customers due to markedly reduced number of drivers in rural cities.   
+- **Average Fare per Ride: **
+- **Average Fare per Driver: **
+- **Total Fare by City Type: ** 
 
 ## Summary: 
 
