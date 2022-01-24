@@ -7,11 +7,11 @@ The purpose of this analysis was provide a summary of PyBer's ride-sharing data 
 
 ### Summary DataFrame: 
 
-The first part of our PyBer Analysis involved merging two data sets, ride_data and city_data, based on the shared "city" column. We then created multiple Pandas series for the metrics outlined below. We merged these series into this PyBer Summary DataFrame:
+The first part of our PyBer Analysis involved merging two data sets, ride_data and city_data, based on the shared "city" column. We then created multiple Pandas series for the metrics outlined below. We then utilized these Pandas series to create a new **PyBer Summary DataFrame**:
 
 ![PyBer_Summary_DataFrame.png](Resources/PyBer_Summary_DataFrame.png)
 
-Highlights of the differences in ride-sharing data amongst the different city types include: 
+**Highlights of the differences in ride-sharing data amongst the different city types include:** 
 
 - **Total Rides:**
   - There are 13 times more rides in urban areas versus rural areas. There are 2.5 times more rides in urban areas vs. suburban areas. This makes sense from a common sense perspective given the population density in urban versus rural cities; however, it is likely that this dramatic difference may lead to disparities in access to Pyber's ride-sharing services.   
@@ -24,10 +24,12 @@ Highlights of the differences in ride-sharing data amongst the different city ty
   - Rural customers pay nearly 30 percent more per ride than their urban counterparts. 
   - Suburban customers pay about 21 percent more than urban customers.    
 - **Average Fare per Driver:**
-  - 
+  - Given the scarcity of drivers in rural areas, rural drivers have the highest average fare per driver which is 3 times the average fare of urban drivers. Suburban drivers' average fare is 2 times higher than their urban counterparts. 
 - **Total Fare by City Type:**
+  - See image below.
+  - The multi-line chart highlights that the highest peak for all city types occurs in the last week of February. The chart also illustrates that their is a significant drop in total fares between the last week in April and early May. 
 
-![Total_Fares_By_City_Type.png](Total_Fares_By_City_Type.png)
+![Total_Fares_By_City_Type.png](Resources/Total_Fares_By_City_Type.png)
 
 ## Summary: 
 
