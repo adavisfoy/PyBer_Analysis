@@ -1,7 +1,7 @@
 # PyBer Ride-Sharing Data Analysis
 
 ## Overview of the analysis: 
-The purpose of this analysis was provide a summary of PyBer's ride-sharing data by city type utilizing a Pandas Dataframe. We also utilize matplotlib to provide a data visualization in the form of a multiple-line chart to illustrate the total fares for each city type. The goal of this analysis was to help PyBer leadership make business decisions that could improve access to ride-sharing services and accessibility for underserved neighborhoods. 
+The purpose of this analysis was provide a summary of PyBer's ride-sharing data by city type utilizing a Pandas Dataframe. We also utilized matplotlib to provide a data visualization in the form of a multiple-line chart to illustrate the total fares for each city type. The goal of this analysis was to help PyBer leadership make business decisions that could improve access to ride-sharing services and accessibility for underserved neighborhoods. 
 
 ## Results: 
 
@@ -24,7 +24,7 @@ The first part of our PyBer Analysis involved merging two data sets, ride_data a
   - Rural customers pay nearly 30 percent more per ride than their urban counterparts. 
   - Suburban customers pay about 21 percent more than urban customers.    
 - **Average Fare per Driver:**
-  - Given the scarcity of drivers in rural areas, rural drivers have the highest average fare per driver which is 3 times the average fare of urban drivers. Suburban drivers' average fare is 2 times higher than their urban counterparts. 
+  - Given the scarcity of drivers in rural areas, rural drivers have the highest average fare per driver which is 3 times the average fare of urban drivers. Suburban drivers' average fare is 2 times higher than their urban counterparts. Urban drivers make the least of the drivers in any city type. Because of this, it may be difficult for these drivers to earn enough money to support their families.  
 - **Total Fare by City Type:**
   - See image below.
   - The multi-line chart highlights that the highest peak for all city types occurs in the last week of February. The chart also illustrates that their is a significant drop in total fares between the last week in April and early May. 
@@ -33,7 +33,7 @@ The first part of our PyBer Analysis involved merging two data sets, ride_data a
 
 ## Summary: 
 
-Based on this analysis, we would like to offer three business recommendations to our CEO and board to address disparities between the city types: 
-- Recommendation 1: 
-- Recommendation 2: 
-- Recommendation 3: 
+Based on this analysis, we would like to offer **three business recommendations** to our CEO and board to address disparities between the city types: 
+- **Recommendation 1:** Conduct a **driver recruitment campaign** in rural cities in order to lower the average fare per ride for rural customers. The high price of a single ride may limit accessibility to ride-sharing services by residents in these areas. 
+- **Recommendation 2:** In order to further investigate disparities in PyBer ride-sharing services among various city types, it may be helpful for PyBer to collect data regarding the **average mileage per ride**. It is reasonable to assume that urban riders may be travelling shorter distances due to the compact nature of a city versus a more spread out rural area.An analysis of this additional data may prove useful in comparing urban versus rural average fares per ride.   
+- **Recommendation 3:** Urban drivers receive the lowest average fare per driver by far. They are only receiving approximately 68 percent of the total fare. PyBer should conduct an analysis and review of compensation policies to ensure that urban drivers are receiving fair pay.   
